@@ -5,30 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
    <div class="card">
-       <div class="form">
-      <form>
+      <form class="search">
             <input type="text" placeholder="Enter your city" />
           <div class="button">
-            <button type="button" class="search">SEARCH</button>
+            <button type="button" class="search-btn">Search</button>
           </div>
       </form>
-      </div>
       <hr>
-      <div class="body">
-        <div class="location">
-          <p class="town">
-            <h1>Nairobi, Kenya </h1>
-            <h2>11:25 AM</h2>
-          </p>
+      <div class="body weather loading">
+        <div class="rightSide">
+            <h2 class="city">Paris</h2>
+            <p>Saturday 15:32, <span class="description">moderate moderate rain</span></p>
+            <p class="humidity">Humidity: 87%, <span class="wind">Wind:7.2km/h</span></p>
         </div>
-        <div class="temp">
-      <img src="partly.png" alt="symbol for partly cloudy">
-   <h2>19<sup>0</sup>C</p>   </h2>
+        <div class="temperature">
+      <img src="./images/MicrosoftTeams-image.png" alt="symbol for partly cloudy" class="icon">
+   <h2 class="temp">19<sup>0</sup>C</p>   </h2>
         </div>
-      
         
       </div>
       <hr>
